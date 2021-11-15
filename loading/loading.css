@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  height: 200px;
+  width: 500px;
+  border: 2px dashed black;
+  border-radius: 5px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  font-weight: bold;
+  color: rgb(84, 10, 107);
+}
+
+.loading {
+  border: 2px solid black;
+  height: 10px;
+  width: 300px;
+  border-radius: 7px;
+}
+
+.line {
+  height: 10px;
+  width:300px;
+  background-color:rgb(84, 10, 107);;
+  border-radius: 7px;
+  animation: line 5s linear 1;
+}
+
+@keyframes line {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}

@@ -1,0 +1,65 @@
+.parent {
+  display: flex;
+}
+
+.child_one,
+.child_two,
+.child_free,
+.child_four {
+  height: 110px;
+  width: 110px;
+}
+
+.child_one {
+  background-image: url("./img/test_stars.png");
+  height: 110px;
+  width: 110px;
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.child_two {
+  background-image: url("./img/test_stars.png");
+  height: 110px;
+  width: 110px;
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.child_free {
+  background-image: url("./img/test_stars.png");
+  height: 110px;
+  width: 110px;
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.child_four {
+  background-image: url("./img/test_stars.png");
+  height: 110px;
+  width: 110px;
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+} 
+
+.child_one:hover {
+  background-image: url("./img/test_star2.jpg");
+  height: 110px;
+  width: 110px;
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+} 
+
+.child_two:hover {
+  background-image: url("./img/test_star2.jpg");
+  height: 110px;
+  width: 110px;
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}  

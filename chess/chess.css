@@ -1,0 +1,99 @@
+.body {
+    /* height: 500px; */
+    width: 500px;
+    border: 2px solid black;
+}
+
+.one,
+.two,
+.free,
+.fouf,
+.six,
+.seven,
+.eight,
+.nine {
+    height: 100px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.oon {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.oon:nth-child(even) {
+    background-color: black;
+}
+
+.oof {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.oof:nth-child(odd) {
+    background-color: black;
+}
+
+.oor {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.oor:nth-child(even) {
+    background-color: black;
+}
+
+.ooo {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.ooo:nth-child(odd) {
+    background-color: black;
+}
+
+.oos {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.oos:nth-child(even) {
+    background-color: black;
+}
+
+.oov {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.oov:nth-child(odd) {
+    background-color: black;
+}
+
+.ooe {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.ooe:nth-child(even) {
+    background-color: black;
+}
+
+.ooi {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.ooi:nth-child(odd) {
+    background-color: black;
+}
